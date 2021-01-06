@@ -1,0 +1,17 @@
+{
+  "name": "myblog",
+  "version": "v1.0.0",
+  "description": "'我的博客静态网站，方便博客文档更新和查阅使用'",
+  "main": "index.js",
+  "repository": "https://github.com/qiunanya/myblog-document.git",
+  "author": "QiuNanya",
+  "license": "mit",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
